@@ -244,10 +244,9 @@ body {
 }
 
 
-@media (max-width: 767px) {
+@media only screen and (max-device-width: 767px) {
 
   .content{
-    max-width: 767px;
     height: fit-content;
     flex-grow: 0;
     min-height: 100%;
@@ -255,13 +254,26 @@ body {
 
   .navbar{
     position: relative;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .block2{
-
-/*    flex-direction: row;*/
   }  
+
+  .block2 a{
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+}
+.block2 img{
+  height: 40px;
+  width: 40px;
+}
 
   .main_text{
     display: flex;
@@ -269,7 +281,14 @@ body {
     justify-content: center;
   }
 
+  .main_text h1{
+    font-size: 90px;
+    line-height: 110px;
+  }
+
   .main_text1, .main_text2{
+    font-size: 50px;
+    line-height: 60px;
     width: 100%;
   }
 
@@ -278,7 +297,9 @@ body {
     flex-direction: column;
   }
 
-  .block2, .block5{
+  .block2, .block5, .block3{
+    font-size: 50px;
+    line-height: 60px;
     justify-content: center;
     width: 100%;
     flex-direction: row;
@@ -288,5 +309,9 @@ body {
 /*    justify-content: center;*/
     flex-grow: 1;
     height: 100%;
+  }
+
+  .footer{
+    font-size: 50px;
   }
 }
