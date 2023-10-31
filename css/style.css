@@ -188,7 +188,7 @@ body {
 
 .main_text1{
   width: 40%;
-/*  min-width: 250px;*/
+  min-width: 250px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -196,7 +196,7 @@ body {
 
 .main_text2{
   width: 60%;
-/*  min-width: 250px;*/
+  min-width: 250px;
   padding: 20px;
   display: flex;
   flex-direction: column;
